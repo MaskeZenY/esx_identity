@@ -73,8 +73,3 @@ RegisterNUICallback("register", function(data, cb)
         end, data)
         cb(1)
 end)
-
-
-RegisterCommand("register", function()
-    TriggerEvent("esx_identity:showRegisterIdentity")
-end, false)
